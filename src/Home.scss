@@ -1,0 +1,71 @@
+$PurpleColor: #BB86FC; 
+$BlackColor: #121212;
+.Home{
+    width: 80%;
+    min-width: 400px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid $PurpleColor;
+
+    form{
+        background-color: $PurpleColor;
+        display:inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 18px;
+        justify-content: center;
+        width: 60%;
+        margin-left: 20%;
+
+        p{
+            color: #ffffff;
+            font-size: 25px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+        input{
+            width: 80%;
+            height: 40px;
+            display: flex;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            background-color: $BlackColor;
+            border-radius: 20px;
+            border: 2px solid $PurpleColor;
+            padding-left: 10px;
+            outline: none;
+            color: #ffffff;
+            font-size: 18px;
+            &::placeholder{
+                color: #FFFFFF;
+                font-size: 15px;
+                
+            }
+        }
+
+        button{
+            width: 153px;
+            height: 38px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            margin-top: 50px;
+            justify-content: center;
+            color: #ffffff;
+            line-height: 38px;
+            background-color: $BlackColor;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+
+
+        }
+    }
+}
